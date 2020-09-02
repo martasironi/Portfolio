@@ -2,6 +2,25 @@
 @import url("Lynton_Bold/stylesheet.css");
 @import url("Lynton_Regular/stylesheet.css");
 
+#lingue{
+	position: absolute;
+    right: 110px;
+    top: 50px;
+}
+.icona-lingue{
+    font-size: 15px;
+    color: #92A287;
+    text-align: left;
+    text-decoration: none;
+    text-decoration-color: none;
+    font-family: "Lynton Regular";
+	margin-left: 5px;
+}
+
+.icona-lingue:hover{
+	text-decoration: underline;
+}
+
 #logo {
     position: absolute;
 	font-family: "Lynton Bold";
@@ -28,19 +47,19 @@
 #icona-about {
     position: absolute;
     top: 108px;
+	right: 110px;
 	font-family: "Lynton Regular";
     font-size: 30px;
 	color: #92a287;
     text-align: left;
     text-decoration: none;
-    right: 110px;
 	text-decoration-color: none;
 }
 
 .fade-bianco {
     position: absolute;
     width: 380px;
-    height: 285px;
+    height: 253px;
     background-color: #FFFFFF;
     opacity: 0;
     z-index: 1;
@@ -52,7 +71,7 @@
     color: #264933;
     text-decoration: none;
     text-align: center;
-	margin-top: 115px;
+	margin-top: 100px;
 }
 
 #fade-uno{
@@ -76,19 +95,37 @@
 #fade-quattro{
 	position: absolute;
 	left: 100px;
-	top: 550px;
+	top: 520px;
 }
 
 #fade-cinque{
 	position: absolute;
 	left: 520px;
-	top: 550px;
+	top: 520px;
 }
 
 #fade-sei{
 	position: absolute;
 	left: 940px;
-	top: 550px;
+	top: 520px;
+}
+
+#fade-sette{
+	position: absolute;
+	left: 100px;
+	top: 810px;
+}
+
+#fade-otto{
+	position: absolute;
+	left: 520px;
+	top: 810px;
+}
+
+#fade-nove{
+	position: absolute;
+	left: 940px;
+	top: 810px;
 }
 
 
@@ -101,6 +138,7 @@
 .icone-progetti {
 	position: absolute;
     width: 380px;
+	height: 253px;
 }
 
 #uno {
@@ -120,87 +158,158 @@
 
 #quattro {
 	left: 100px;
-	top: 550px;
+	top: 520px;
 }
 
 #cinque {
 	left: 520px;
-	top: 550px;
+	top: 520px;
 }
 
 #sei {
 	left: 940px;
-	top: 550px;
+	top: 520px;
 }
-.titolo {
+
+#sette{
+	left: 100px;
+	top: 810px;
+}
+
+#otto{
+	left: 520px;
+	top: 810px;
+}
+
+#nove{
+	left: 940px;
+	top: 810px;
+}
+
+.testo-progetto {
 	position: fixed;
 	width: 450px;
 	top: 220px;
 	left: 880px;
+}
+
+.titolo {
+	position: static;
+	width: 450px;
 	font-family: 'Lynton Bold';
 	font-size: 25px;
 	color: #264933;
     text-align: left;
     text-decoration: none;
-	line-height: 0.5em; 
+	line-height: 1.5em; 
+	margin-bottom: 10px;
 }
 
 .didascalia {
-	position: fixed;
+	position: static;
 	width: 450px;
-	top: 260px;
-	left: 880px;
 	font-family: "Lynton Regular";
-	font-size: 20px;
+	font-size: 16px;
 	color: #264933;
     text-align: left;
     text-decoration: none;
-	line-height: 1em; 
+	line-height: 1.1em; 
+	margin-bottom: 30px;
    }
 
+.link {
+	font-family: "Lynton Regular";
+	font-size: 18px;
+	color: #92a287;
+	text-decoration-color: none;
+	text-decoration: none;
+	line-height: 1.3em;
+}
 
-.immagine-grande {
-	position: relative;
-    width: 700px;
-	left: 100px;
-	top: 230px;
-	margin-bottom: 30px;
-} 
-
-.carrellata {
-    width: 700px;
-} 
+.link:hover{
+	text-decoration: underline;
+}
 
 .corso {
-	position: fixed;
-	width: 240px;
-	top: 560px;
-	left: 880px;
+	position: static;
+	width: 300px;
 	font-family: "Lynton Regular";
 	font-size: 12px;
 	color: #264933;
     text-align: left;
     text-decoration: none;
-	line-height: 0.5em;
-	
+	line-height: 1.5em;	
 }
 
 .gruppo {
-	position: fixed;
-	width: 240px;
-	top: 560px;
-	left: 1150px;
+    position: static;
+    width: 300px;
+    font-family: "Lynton Regular";
+    font-size: 12px;
+    color: #264933;
+    text-align: left;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+.didascalia-immagine{
+	position: static;
 	font-family: "Lynton Regular";
 	font-size: 12px;
 	color: #264933;
     text-align: left;
     text-decoration: none;
-	line-height: 0.5em; 
+	line-height: 1.5em;	
 }
 
+.carrellata {
+	position: absolute;
+    left: 100px;
+	top: 230px;
+	width: 700px;
+} 
 
+.immagine-grande {
+	position: static;
+    width: 700px;
+	margin-top: 30px;
+}
 
+#fototessera{
+	position: absolute;
+    left: 200px;
+    width: 350px;
+	margin-top: 30px;
+}
 
+#about-me {
+	position: fixed;
+	top: 200px;
+	left: 720px;
+    width: 350px;
+	margin-top: 30px;
+}
 
+.barra-chiusura{
+	position: static;
+	height: 60px;
+	background-color: white;
+}
 
+.barra-chiusura-home{
+	position: absolute;
+    width: 380px;
+	height: 50px;
+	left: 100px;
+	top: 1100px;
+	background-color: white;
+}
 
+.barra-chiusura-about{
+	position: absolute;
+    width: 380px;
+	height: 50px;
+	left: 100px;
+	top: 500px;
+	background-color: white;
+}

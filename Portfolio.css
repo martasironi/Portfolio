@@ -14,7 +14,7 @@
     text-decoration: none;
     text-decoration-color: none;
     font-family: "Lynton Regular";
-	margin-left: 5px;
+   	margin-left: 5px;
 }
 
 .icona-lingue:hover{
@@ -29,28 +29,28 @@
     color: #eac5b3;
     font-size: 80px;
     left: 110px;
-    
+
 }
 
 #icona-projects {
     position: absolute;
-    left: 1050px;
     top: 108px;
+		right: 280px;
     font-size: 30px;
     color: #92A287;
     text-align: left;
     text-decoration: none;
     text-decoration-color: none;
-    font-family: "Lynton Regular";    
+    font-family: "Lynton Regular";
 }
 
 #icona-about {
     position: absolute;
     top: 108px;
-	right: 110px;
-	font-family: "Lynton Regular";
+	  right: 110px;
+	  font-family: "Lynton Regular";
     font-size: 30px;
-	color: #92a287;
+	  color: #92a287;
     text-align: left;
     text-decoration: none;
 	text-decoration-color: none;
@@ -201,7 +201,7 @@
 	color: #264933;
     text-align: left;
     text-decoration: none;
-	line-height: 1.5em; 
+	line-height: 1.5em;
 	margin-bottom: 10px;
 }
 
@@ -213,7 +213,7 @@
 	color: #264933;
     text-align: left;
     text-decoration: none;
-	line-height: 1.1em; 
+	line-height: 1.1em;
 	margin-bottom: 30px;
    }
 
@@ -238,7 +238,7 @@
 	color: #264933;
     text-align: left;
     text-decoration: none;
-	line-height: 1.5em;	
+	line-height: 1.5em;
 }
 
 .gruppo {
@@ -259,7 +259,7 @@
 	color: #264933;
     text-align: left;
     text-decoration: none;
-	line-height: 1.5em;	
+	line-height: 1.5em;
 }
 
 .carrellata {
@@ -267,7 +267,7 @@
     left: 100px;
 	top: 230px;
 	width: 700px;
-} 
+}
 
 .immagine-grande {
 	position: static;

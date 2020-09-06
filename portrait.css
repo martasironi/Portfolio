@@ -1,0 +1,313 @@
+@charset "UTF-8";
+@import url("Lynton_Bold/stylesheet.css");
+@import url("Lynton_Regular/stylesheet.css");
+
+#lingue{
+	position: absolute;
+  right: 80px;
+  top: 50px;
+}
+.icona-lingue{
+    font-size: 15px;
+    color: #f11818;
+    text-align: left;
+    text-decoration: none;
+    text-decoration-color: none;
+    font-family: "Lynton Regular";
+   	margin-left: 5px;
+}
+
+.icona-lingue:hover{
+	text-decoration: underline;
+}
+
+#logo {
+    position: absolute;
+	  font-family: "Lynton Bold";
+    text-align: left;
+    text-decoration: none;
+    color: #eac5b3;
+    font-size: 80px;
+    left: 50%;
+		top: 10px;
+
+}
+.icone-interattive{
+  position:absolute;
+  top: 170px;
+  left: 50%;
+}
+
+#icona-projects {
+    font-size: 30px;
+    color: #92A287;
+    text-align: left;
+    text-decoration: none;
+    text-decoration-color: none;
+    font-family: "Lynton Regular";
+    margin-right: 100px;
+}
+
+#icona-about {
+	  font-family: "Lynton Regular";
+    font-size: 30px;
+	  color: #92a287;
+    text-align: left;
+    text-decoration: none;
+ 	  text-decoration-color: none;
+}
+
+.fade-bianco {
+    position: absolute;
+    width: 380px;
+    height: 253px;
+    background-color: #FFFFFF;
+    opacity: 0;
+    z-index: 1;
+}
+
+.fade-testo {
+	font-family: 'Lynton Bold';
+    font-size: 30px;
+    color: #264933;
+    text-decoration: none;
+    text-align: center;
+	margin-top: 100px;
+}
+
+#fade-uno{
+	position: absolute;
+	left: 100px;
+  top: 200px;
+}
+
+#fade-due{
+	position: absolute;
+	left: 520px;
+	top: 200px;
+}
+
+#fade-tre{
+	position: absolute;
+	left: 940px;
+	top: 200px;
+}
+
+#fade-quattro{
+	position: absolute;
+	left: 100px;
+	top: 490px;
+}
+
+#fade-cinque{
+	position: absolute;
+	left: 520px;
+	top: 490px;
+}
+
+#fade-sei{
+	position: absolute;
+	left: 940px;
+	top: 490px;
+}
+
+#fade-sette{
+	position: absolute;
+	left: 100px;
+	top: 780px;
+}
+
+#fade-otto{
+	position: absolute;
+	left: 520px;
+	top: 780px;
+}
+
+#fade-nove{
+	position: absolute;
+	left: 940px;
+	top: 780px;
+}
+
+.fade-bianco:hover {
+	opacity:0.5;
+}
+
+.icone-progetti {
+	position: absolute;
+    width: 380px;
+	height: 253px;
+}
+
+#uno {
+	left: 100px;
+	top: 200px;
+}
+
+#due {
+	left: 520px;
+	top: 200px;
+}
+
+#tre {
+	left: 940px;
+	top: 200px;
+}
+
+#quattro {
+	left: 100px;
+	top: 490px;
+}
+
+#cinque {
+	left: 520px;
+	top: 490px;
+}
+
+#sei {
+	left: 940px;
+	top: 490px;
+}
+
+#sette{
+	left: 100px;
+	top: 780px;
+}
+
+#otto{
+	left: 520px;
+	top: 780px;
+}
+
+#nove{
+	left: 940px;
+	top: 780px;
+}
+
+.testo-progetto {
+	position: fixed;
+	width: 450px;
+	top: 180px;
+	left: 880px;
+}
+
+.titolo {
+	position: static;
+	width: 450px;
+	font-family: 'Lynton Bold';
+	font-size: 25px;
+	color: #264933;
+    text-align: left;
+    text-decoration: none;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+
+.didascalia {
+	position: static;
+	width: 450px;
+	font-family: "Lynton Regular";
+	font-size: 16px;
+	color: #264933;
+    text-align: left;
+    text-decoration: none;
+	line-height: 1.1em;
+	margin-bottom: 30px;
+   }
+
+.link {
+	font-family: "Lynton Regular";
+	font-size: 18px;
+	color: #92a287;
+	text-decoration-color: none;
+	text-decoration: none;
+	line-height: 1.3em;
+}
+
+.link:hover{
+	text-decoration: underline;
+}
+
+.corso {
+	position: static;
+	width: 300px;
+	font-family: "Lynton Regular";
+	font-size: 12px;
+	color: #264933;
+    text-align: left;
+    text-decoration: none;
+	line-height: 1.5em;
+}
+
+.gruppo {
+    position: static;
+    width: 300px;
+    font-family: "Lynton Regular";
+    font-size: 12px;
+    color: #264933;
+    text-align: left;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+.didascalia-immagine{
+	position: static;
+	font-family: "Lynton Regular";
+	font-size: 12px;
+	color: #264933;
+    text-align: left;
+    text-decoration: none;
+	line-height: 1.5em;
+}
+
+.carrellata {
+	position: absolute;
+  left: 100px;
+	top: 180px;
+	width: 700px;
+}
+
+.immagine-grande {
+	position: static;
+    width: 700px;
+	margin-top: 30px;
+}
+
+#fototessera{
+	position: absolute;
+  left: 200px;
+  width: 350px;
+	margin-top: 30px;
+}
+
+#about-me {
+	position: fixed;
+	top: 150px;
+	left: 720px;
+  width: 350px;
+	margin-top: 30px;
+}
+
+.barra-chiusura{
+	position: static;
+	height: 60px;
+	background-color: white;
+}
+
+.barra-chiusura-home{
+	position: absolute;
+    width: 380px;
+	height: 50px;
+	left: 100px;
+	top: 1100px;
+	background-color: white;
+}
+
+.barra-chiusura-about{
+	position: absolute;
+    width: 380px;
+	height: 50px;
+	left: 100px;
+	top: 500px;
+	background-color: white;
+}

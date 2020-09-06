@@ -27,9 +27,11 @@
     text-align: left;
     text-decoration: none;
     color: #eac5b3;
-    font-size: 80px;
+    font-size: 60px;
     left: 50%;
+    margin-left: -50%;
 		top: 10px;
+
 
 }
 .icone-interattive{

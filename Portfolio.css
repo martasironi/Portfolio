@@ -23,18 +23,19 @@
 
 #logo {
     position: absolute;
-	font-family: "Lynton Bold";
+	  font-family: "Lynton Bold";
     text-align: left;
     text-decoration: none;
     color: #eac5b3;
     font-size: 80px;
     left: 110px;
+		top: 0px;
 
 }
 
 #icona-projects {
     position: absolute;
-    top: 108px;
+    top: 100px;
 		right: 280px;
     font-size: 30px;
     color: #92A287;
@@ -46,7 +47,7 @@
 
 #icona-about {
     position: absolute;
-    top: 108px;
+    top: 100px;
 	  right: 110px;
 	  font-family: "Lynton Regular";
     font-size: 30px;
@@ -77,63 +78,60 @@
 #fade-uno{
 	position: absolute;
 	left: 100px;
-    top: 230px;
+  top: 200px;
 }
 
 #fade-due{
 	position: absolute;
 	left: 520px;
-	top: 230px;
+	top: 200px;
 }
 
 #fade-tre{
 	position: absolute;
 	left: 940px;
-	top: 230px;
+	top: 200px;
 }
 
 #fade-quattro{
 	position: absolute;
 	left: 100px;
-	top: 520px;
+	top: 490px;
 }
 
 #fade-cinque{
 	position: absolute;
 	left: 520px;
-	top: 520px;
+	top: 490px;
 }
 
 #fade-sei{
 	position: absolute;
 	left: 940px;
-	top: 520px;
+	top: 490px;
 }
 
 #fade-sette{
 	position: absolute;
 	left: 100px;
-	top: 810px;
+	top: 780px;
 }
 
 #fade-otto{
 	position: absolute;
 	left: 520px;
-	top: 810px;
+	top: 780px;
 }
 
 #fade-nove{
 	position: absolute;
 	left: 940px;
-	top: 810px;
+	top: 780px;
 }
-
-
 
 .fade-bianco:hover {
 	opacity:0.5;
 }
-
 
 .icone-progetti {
 	position: absolute;
@@ -143,53 +141,53 @@
 
 #uno {
 	left: 100px;
-	top: 230px;
+	top: 200px;
 }
 
 #due {
 	left: 520px;
-	top: 230px;
+	top: 200px;
 }
 
 #tre {
 	left: 940px;
-	top: 230px;
+	top: 200px;
 }
 
 #quattro {
 	left: 100px;
-	top: 520px;
+	top: 490px;
 }
 
 #cinque {
 	left: 520px;
-	top: 520px;
+	top: 490px;
 }
 
 #sei {
 	left: 940px;
-	top: 520px;
+	top: 490px;
 }
 
 #sette{
 	left: 100px;
-	top: 810px;
+	top: 780px;
 }
 
 #otto{
 	left: 520px;
-	top: 810px;
+	top: 780px;
 }
 
 #nove{
 	left: 940px;
-	top: 810px;
+	top: 780px;
 }
 
 .testo-progetto {
 	position: fixed;
 	width: 450px;
-	top: 220px;
+	top: 180px;
 	left: 880px;
 }
 
@@ -264,8 +262,8 @@
 
 .carrellata {
 	position: absolute;
-    left: 100px;
-	top: 230px;
+  left: 100px;
+	top: 180px;
 	width: 700px;
 }
 
@@ -277,16 +275,16 @@
 
 #fototessera{
 	position: absolute;
-    left: 200px;
-    width: 350px;
+  left: 200px;
+  width: 350px;
 	margin-top: 30px;
 }
 
 #about-me {
 	position: fixed;
-	top: 200px;
+	top: 150px;
 	left: 720px;
-    width: 350px;
+  width: 350px;
 	margin-top: 30px;
 }
 

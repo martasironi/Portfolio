@@ -24,190 +24,155 @@
 #logo {
     position: absolute;
 	  font-family: "Lynton Bold";
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     color: #eac5b3;
     font-size: 60px;
+    width: 400px;
     left: 50%;
-    margin-left: -50%;
-		top: 10px;
-
-
+    margin-left:-200px;
+		top: 30px;
 }
+
 .icone-interattive{
   position:absolute;
-  top: 170px;
+  width: 400px;
+  top: 150px;
   left: 50%;
+  margin-left: -200px;
+  text-align: center;
 }
 
 #icona-projects {
     font-size: 30px;
     color: #92A287;
-    text-align: left;
     text-decoration: none;
     text-decoration-color: none;
     font-family: "Lynton Regular";
-    margin-right: 100px;
 }
 
 #icona-about {
 	  font-family: "Lynton Regular";
     font-size: 30px;
 	  color: #92a287;
-    text-align: left;
     text-decoration: none;
  	  text-decoration-color: none;
+    margin-left: 80px;
+}
+
+.carrellata-home {
+	position: absolute;
+  align-items: center;
+	top: 250px;
+  width: 500px;
+  left: 50%;
+  margin-left: -250px;
+}
+
+.icone-progetti{
+  width: 500px;
+  z-index: 1;
+  margin-bottom: 50px;
 }
 
 .fade-bianco {
     position: absolute;
-    width: 380px;
-    height: 253px;
+    width: 500px;
+    height: 333px;
     background-color: #FFFFFF;
     opacity: 0;
-    z-index: 1;
-}
-
-.fade-testo {
-	font-family: 'Lynton Bold';
-    font-size: 30px;
-    color: #264933;
-    text-decoration: none;
-    text-align: center;
-	margin-top: 100px;
+    z-index: 2;
 }
 
 #fade-uno{
 	position: absolute;
-	left: 100px;
-  top: 200px;
+	left: 0px;
+  top: 0px;
 }
 
 #fade-due{
 	position: absolute;
-	left: 520px;
-	top: 200px;
+	left: 0px;
+	top: 387px;
 }
 
 #fade-tre{
 	position: absolute;
-	left: 940px;
-	top: 200px;
+	left: 0px;
+	top: 774px;
 }
 
 #fade-quattro{
 	position: absolute;
-	left: 100px;
-	top: 490px;
+	left: 0px;
+	top: 1161px;
 }
 
 #fade-cinque{
 	position: absolute;
-	left: 520px;
-	top: 490px;
+	left: 0px;
+	top: 1548px;
 }
 
 #fade-sei{
 	position: absolute;
-	left: 940px;
-	top: 490px;
+	left: 0px;
+	top: 1935px;
 }
 
 #fade-sette{
 	position: absolute;
-	left: 100px;
-	top: 780px;
+	left: 0px;
+	top: 2322px;
 }
 
 #fade-otto{
 	position: absolute;
-	left: 520px;
-	top: 780px;
+	left: 0px;
+	top: 2709px;
 }
 
 #fade-nove{
 	position: absolute;
-	left: 940px;
-	top: 780px;
+	left: 0px;
+	top: 3096px;
+}
+
+.fade-testo {
+	  font-family: 'Lynton Bold';
+    font-size: 30px;
+    color: #264933;
+    text-decoration: none;
+    text-align: center;
+	  margin-top: 100px;
+    z-index: 2;
 }
 
 .fade-bianco:hover {
 	opacity:0.5;
 }
 
-.icone-progetti {
-	position: absolute;
-    width: 380px;
-	height: 253px;
-}
-
-#uno {
-	left: 100px;
-	top: 200px;
-}
-
-#due {
-	left: 520px;
-	top: 200px;
-}
-
-#tre {
-	left: 940px;
-	top: 200px;
-}
-
-#quattro {
-	left: 100px;
-	top: 490px;
-}
-
-#cinque {
-	left: 520px;
-	top: 490px;
-}
-
-#sei {
-	left: 940px;
-	top: 490px;
-}
-
-#sette{
-	left: 100px;
-	top: 780px;
-}
-
-#otto{
-	left: 520px;
-	top: 780px;
-}
-
-#nove{
-	left: 940px;
-	top: 780px;
-}
-
 .testo-progetto {
-	position: fixed;
-	width: 450px;
-	top: 180px;
-	left: 880px;
+  position: absolute;
+  align-items: center;
+  width: 500px;
+  left: 50%;
+  margin-left: -250px;
 }
 
 .titolo {
 	position: static;
-	width: 450px;
 	font-family: 'Lynton Bold';
 	font-size: 25px;
 	color: #264933;
-    text-align: left;
-    text-decoration: none;
+  text-align: left;
+  text-decoration: none;
 	line-height: 1.5em;
 	margin-bottom: 10px;
 }
 
 .didascalia {
 	position: static;
-	width: 450px;
 	font-family: "Lynton Regular";
 	font-size: 16px;
 	color: #264933;
@@ -263,15 +228,17 @@
 }
 
 .carrellata {
-	position: absolute;
-  left: 100px;
-	top: 180px;
-	width: 700px;
+  position: absolute;
+  align-items: center;
+	top: 250px;
+  width: 500px;
+  left: 50%;
+  margin-left: -250px;
 }
 
 .immagine-grande {
 	position: static;
-    width: 700px;
+  width: 500px;
 	margin-top: 30px;
 }
 

@@ -7,9 +7,10 @@
   right: 80px;
   top: 50px;
 }
+
 .icona-lingue{
     font-size: 15px;
-    color: #f11818;
+    color: #92A287;
     text-align: left;
     text-decoration: none;
     text-decoration-color: none;
@@ -37,7 +38,7 @@
 .icone-interattive{
   position:absolute;
   width: 400px;
-  top: 150px;
+  top: 160px;
   left: 50%;
   margin-left: -200px;
   text-align: center;
@@ -51,6 +52,10 @@
     font-family: "Lynton Regular";
 }
 
+#icona-projects:hover{
+	text-decoration: underline;
+}
+
 #icona-about {
 	  font-family: "Lynton Regular";
     font-size: 30px;
@@ -60,25 +65,29 @@
     margin-left: 80px;
 }
 
+#icona-about:hover{
+	text-decoration: underline;
+}
+
 .carrellata-home {
 	position: absolute;
   align-items: center;
 	top: 250px;
-  width: 500px;
+  width: 600px;
   left: 50%;
-  margin-left: -250px;
+  margin-left: -300px;
 }
 
 .icone-progetti{
-  width: 500px;
+  width: 600px;
   z-index: 1;
   margin-bottom: 50px;
 }
 
 .fade-bianco {
     position: absolute;
-    width: 500px;
-    height: 333px;
+    width: 600px;
+    height: 400px;
     background-color: #FFFFFF;
     opacity: 0;
     z-index: 2;
@@ -93,49 +102,49 @@
 #fade-due{
 	position: absolute;
 	left: 0px;
-	top: 387px;
+	top: 454px;
 }
 
 #fade-tre{
 	position: absolute;
 	left: 0px;
-	top: 774px;
+	top: 908px;
 }
 
 #fade-quattro{
 	position: absolute;
 	left: 0px;
-	top: 1161px;
+	top: 1362px;
 }
 
 #fade-cinque{
 	position: absolute;
 	left: 0px;
-	top: 1548px;
+	top: 1813px;
 }
 
 #fade-sei{
 	position: absolute;
 	left: 0px;
-	top: 1935px;
+	top: 2268px;
 }
 
 #fade-sette{
 	position: absolute;
 	left: 0px;
-	top: 2322px;
+	top: 2721px;
 }
 
 #fade-otto{
 	position: absolute;
 	left: 0px;
-	top: 2709px;
+	top: 3175px;
 }
 
 #fade-nove{
 	position: absolute;
 	left: 0px;
-	top: 3096px;
+	top: 3630px;
 }
 
 .fade-testo {
@@ -144,7 +153,7 @@
     color: #264933;
     text-decoration: none;
     text-align: center;
-	  margin-top: 100px;
+	  margin-top: 150px;
     z-index: 2;
 }
 
@@ -155,9 +164,9 @@
 .testo-progetto {
   position: absolute;
   align-items: center;
-  width: 500px;
+  width: 600px;
   left: 50%;
-  margin-left: -250px;
+  margin-left: -300px;
 }
 
 .titolo {
@@ -176,8 +185,8 @@
 	font-family: "Lynton Regular";
 	font-size: 16px;
 	color: #264933;
-    text-align: left;
-    text-decoration: none;
+  text-align: left;
+  text-decoration: none;
 	line-height: 1.1em;
 	margin-bottom: 30px;
    }
@@ -201,8 +210,8 @@
 	font-family: "Lynton Regular";
 	font-size: 12px;
 	color: #264933;
-    text-align: left;
-    text-decoration: none;
+  text-align: left;
+  text-decoration: none;
 	line-height: 1.5em;
 }
 
@@ -222,8 +231,8 @@
 	font-family: "Lynton Regular";
 	font-size: 12px;
 	color: #264933;
-    text-align: left;
-    text-decoration: none;
+  text-align: left;
+  text-decoration: none;
 	line-height: 1.5em;
 }
 
@@ -231,30 +240,32 @@
   position: absolute;
   align-items: center;
 	top: 250px;
-  width: 500px;
+  width: 600px;
   left: 50%;
-  margin-left: -250px;
+  margin-left: -300px;
 }
 
 .immagine-grande {
 	position: static;
-  width: 500px;
+  width: 600px;
 	margin-top: 30px;
 }
 
 #fototessera{
 	position: absolute;
-  left: 200px;
+  left: 50%;
+	margin-left: -175px;
   width: 350px;
 	margin-top: 30px;
 }
 
 #about-me {
-	position: fixed;
-	top: 150px;
-	left: 720px;
-  width: 350px;
-	margin-top: 30px;
+	position: absolute;
+  align-items: center;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+	top: 750px;
 }
 
 .barra-chiusura{
@@ -263,20 +274,11 @@
 	background-color: white;
 }
 
-.barra-chiusura-home{
-	position: absolute;
-    width: 380px;
-	height: 50px;
-	left: 100px;
-	top: 1100px;
-	background-color: white;
-}
-
 .barra-chiusura-about{
 	position: absolute;
-    width: 380px;
+  width: 380px;
 	height: 50px;
 	left: 100px;
-	top: 500px;
+	top: 950px;
 	background-color: white;
 }

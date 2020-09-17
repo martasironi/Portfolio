@@ -165,6 +165,7 @@
   position: absolute;
   align-items: center;
   width: 600px;
+	top: 250px;
   left: 50%;
   margin-left: -300px;
 }
@@ -239,7 +240,7 @@
 .carrellata {
   position: absolute;
   align-items: center;
-	top: 250px;
+	top: 700px;
   width: 600px;
   left: 50%;
   margin-left: -300px;

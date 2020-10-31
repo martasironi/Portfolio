@@ -193,8 +193,8 @@
    }
 
 .link {
-	font-family: "Lynton Regular";
-	font-size: 18px;
+	font-family: "Lynton Bold";
+	font-size: 16px;
 	color: #92a287;
 	text-decoration-color: none;
 	text-decoration: none;
@@ -255,9 +255,9 @@
 #fototessera{
 	position: absolute;
   left: 50%;
-	margin-left: -175px;
-  width: 350px;
-	margin-top: 30px;
+	margin-left: -200px;
+  width: 400px;
+	top:-450px;
 }
 
 #about-me {
@@ -266,7 +266,7 @@
   width: 400px;
   left: 50%;
   margin-left: -200px;
-	top: 750px;
+	top: 800px;
 }
 
 .barra-chiusura{

@@ -205,20 +205,14 @@
 	margin-bottom: 30px;
    }
 
-.link {
-	font-family: "Americana Regular";
-	font-size: 16px;
+.linkicone {
 	color: #FFC130;
 	text-decoration-color: none;
 	text-decoration: none;
-	line-height: 1.3em;
+	margin-right: 15px;
 }
 
-.link:hover{
-	text-decoration: underline;
-}
-
-.link2 {
+.link {
 	font-family: "Americana Regular";
 	font-size: 16px;
 	color: #9CCBFF;
@@ -227,7 +221,7 @@
 	line-height: 1.3em;
 	}
 
-.link2:hover{
+.link:hover{
 		text-decoration: underline;
 	}
 

@@ -250,6 +250,19 @@
 	text-decoration: underline;
 }
 
+.link2 {
+	font-family: "Americana Regular";
+	font-size: 16px;
+	color: #9CCBFF;
+	text-decoration-color: none;
+	text-decoration: none;
+	line-height: 1.3em;
+	}
+
+.link2:hover{
+		text-decoration: underline;
+	}
+
 .corso {
 	position: static;
 	width: 350px;

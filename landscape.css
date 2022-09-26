@@ -15,6 +15,21 @@
 	src: local('Americana Bold'), url('Americana/AmericanaTOT-ExtBol.otf') format('opentype');
 	}
 
+@font-face {
+	font-family: 'Agrandir Regular';
+	src: local('Agrandir Regular'), url('Agrandir/Agrandir-Regular.otf') format('opentype');
+	}
+@font-face {
+	font-family: 'Agrandir Bold';
+	src: local('Agrandir Bold'), url('Agrandir/Agrandir-TextBold.otf') format('opentype');
+	}
+@font-face {
+	font-family: 'Agrandir Heavy';
+	src: local('Agrandir Heavy'), url('Agrandir/Agrandir-GrandHeavy.otf') format('opentype');
+	}
+
+
+
 #lingue{
 	position: absolute;
   left: 1250px;
@@ -27,7 +42,7 @@
     text-align: left;
     text-decoration: none;
     text-decoration-color: none;
-    font-family: "Americana Regular";
+    font-family: "Agrandir Regular";
    	margin-left: 5px;
 }
 
@@ -37,10 +52,10 @@
 
 #logo {
     position: absolute;
-	  font-family: "Americana Bold";
+	  font-family: "Agrandir Heavy";
     text-align: left;
     text-decoration: none;
-    color: #ECA39D;
+    color: #424874;
     font-size: 80px;
     left: 110px;
 		top: 0px;
@@ -52,11 +67,11 @@
     top: 100px;
 		left: 1000px;
     font-size: 30px;
-    color: #FFC130;
+    color: #A6B1E1;
     text-align: left;
     text-decoration: none;
     text-decoration-color: none;
-    font-family: "Americana Regular";
+    font-family: "Agrandir Regular";
 }
 
 #icona-projects:hover{
@@ -67,9 +82,9 @@
     position: absolute;
     top: 100px;
 		left: 1170px;
-	  font-family: "Americana Regular";
+	  font-family: "Agrandir Regular";
     font-size: 30px;
-	  color: #FFC130;
+	  color: #A6B1E1;
     text-align: left;
     text-decoration: none;
 	  text-decoration-color: none;
@@ -89,9 +104,9 @@
 }
 
 .fade-testo {
-	font-family: 'Americana Regular';
+	font-family: "Agrandir Regular";
   font-size: 30px;
-  color: #18288D;
+  color: #424874;
   text-decoration: none;
   text-align: center;
   margin-top: 100px;
@@ -216,9 +231,9 @@
 .titolo {
 	position: static;
 	width: 450px;
-	font-family: "Americana Bold";
-	font-size: 25px;
-	color: #ECA39D;
+	font-family: "Agrandir Heavy";
+	font-size: 20px;
+	color: #A6B1E1;
   text-align: left;
   text-decoration: none;
 	line-height: 1.5em;
@@ -228,7 +243,7 @@
 .didascalia {
 	position: static;
 	width: 450px;
-	font-family: "Americana Regular";
+	font-family: "Agrandir Regular";
 	font-size: 16px;
 	color: #18288D;
   text-align: left;
@@ -245,7 +260,7 @@
 }
 
 .link {
-	font-family: "Americana Regular";
+	font-family: "Agrandir Regular";
 	font-size: 16px;
 	color: #9CCBFF;
 	text-decoration-color: none;
@@ -260,7 +275,7 @@
 .corso {
 	position: static;
 	width: 350px;
-	font-family: "Americana Regular";
+	font-family: "Agrandir Regular";
 	font-size: 12px;
 	color: #9CCBFF;
   text-align: left;
@@ -271,7 +286,7 @@
 .gruppo {
     position: static;
     width: 350px;
-    font-family: "Americana Regular";
+    font-family: "Agrandir Regular";
     font-size: 12px;
     color: #9CCBFF;
     text-align: left;
@@ -281,7 +296,7 @@
 
 .didascalia-immagine{
 	position: static;
-	font-family: "Americana Regular";
+	font-family: "Agrandir Regular";
 	font-size: 12px;
 	color: #2653AF;
     text-align: left;
